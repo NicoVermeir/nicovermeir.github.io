@@ -1,4 +1,4 @@
-This repository and contents made available at [http://blog.maartenballiauw.be](http://blog.maartenballiauw.be) are licensed as follows:
+This repository and contents made available at [http://www.spikie.be](http://www.spikie.be) are licensed as follows:
 
 * Blog content such as articles, page contents, images embedded in content, ... are &copy; Copyright Maarten Balliauw;
 * Jekyll-based site generation templates are licensed under the MIT license.
