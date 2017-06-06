@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "About me"
+    url: /about-me.html
+
+  - title: "Contact"
+    url: /contact-me.html
+
+  - title: "Archive"
+    url: /archive/posts-by-year.html
+
+  - title: "Disclaimer"
+    url: /disclaimer.html

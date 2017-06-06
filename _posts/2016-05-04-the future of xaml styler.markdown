@@ -1,0 +1,16 @@
+---
+layout: post
+title: "the future of xaml styler"
+date: 2016-05-04 18:53:36 +0200
+comments: true
+published: true
+categories: ["post"]
+tags: []
+alias: ["/blog/post/2016/05/04/.aspx"]
+author: Nico Vermeir
+redirect_from:
+ - /blog/post/2016/05/04/.aspx
+ - /blog/post/2016/05/04/.aspx
+---
+<p>A while ago I forked the popular Visual Studio plugin XAML Styler. The original author had abandoned the project before Visual Studio 2013 came out. I forked the project, added VS2013 support and starting improving / extending the extension. Over time I had a lot of help from different people. Popularity grew very fast.</p>  <p>But as things tend to go with hobby projects, life got in the way and I started neglecting the plugin. Pull Request stood open for over a year, reported issues weren’t responded to and the project seemed abandoned. My apologies for this. One of the things that came out of this was a new fork called XAML Magic. Dave, the maintainer of XAML Magic, took XAML Styler and did some cool things with it, like adding command line support.</p>  <p>About two weeks ago I felt it was about time to dive back into XAML Styler, clean up all outstanding issues and dedicate a set amount of time to the extension, and this time make sure that it remains alive. Version 2.0 was released, I got in touch with one of my best contributors, Philip, and together we started discussing the future of XAML Styler.</p>  <p>A few days later, Dave, the creator of XAML Magic, reached out to me. He had no plans to be a competitor to XAML Styler and wanted to work together to create one amazing plugin instead of two competing products (that’s open source spirit right there!). We added Philip into the mix and decided to switch XAML Styler over to a Github Organization.</p>  <h2>Introducing Xavalon</h2>  <p>The three of us created Xavalon. Xavalon is the organization that will house XAML Styler from now on (and who knows what more great products will sprout here). Moving to an organization mainly means that the product will no longer be abandoned if one of us gets other priorities. We will always have someone available to work on the extension, and obviously we will still accept Pull Requests.</p>  <p>So where do we go from here? We just pushed XAML Styler 2.1 out to the Visual Studio Gallery. This should fix a bug where the extension was no longer useable in VS2013 and adds Blend 2015 support! (thanks Microsoft for the help on this one!). From now on we would like to ask you to report all issues to the <a href="https://github.com/Xavalon/XamlStyler" target="_blank">Xavalon repository</a> and no longer use the repository on my github. Next steps: we’ll create a backlog of features we want to implement (starting with back-porting XAML Magic), feel free to add to our backlog as well, we’re open to all suggestions!</p>  <p>Thank you all for your continued support, I’m sure that Dave, Philip and myself can keep this extension in active development and we can build something amazing out of it.</p>  <p><a title="https://github.com/Xavalon/XamlStyler" href="https://github.com/Xavalon/XamlStyler">https://github.com/Xavalon/XamlStyler</a></p>
+{% include imported_disclaimer.html %}
