@@ -11,7 +11,7 @@ title                    : "Nico's Digital Footprint"
 title_separator          : "-"
 name                     : "Nico's Digital Footprint"
 description              : "UWP, Xamarin, Bots, Community, ..."
-url                      : "http://127.0.0.1:4000/"
+url                      : "https://nicovermeir.github.io:4000/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
