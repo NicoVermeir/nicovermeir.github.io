@@ -192,7 +192,7 @@ SetBinding is an extension method in MVVM Light used to create bindings. The ove
 Finally, we add the newly created binding to the list of bindings. This is done so that the garbage collector won't accidentally clean up the binding while we still need it.
 
 That should be enough to get things going, the result should look like this:
-<img src="http:\\www.spikie.be\images\images\netstandardmvvm\03.PNG" alt="screenshot" style="width: 250px;"/>
+<img src="http:\\www.spikie.be\images\netstandardmvvm\03.PNG" alt="screenshot" style="width: 250px;"/>
 
 ### Conclusion
 In this article I've shown you how you can use MVVM Light on .NET Standard based projects. This will also work for other libraries that have not yet made the jump to .NET Standard.
