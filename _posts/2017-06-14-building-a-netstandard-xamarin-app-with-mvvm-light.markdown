@@ -198,3 +198,9 @@ That should be enough to get things going, the result should look like this:
 In this article I've shown you how you can use MVVM Light on .NET Standard based projects. This will also work for other libraries that have not yet made the jump to .NET Standard.
 
 Happy coding!
+
+
+### UPDATE: 
+Should you run into an error that says that mscorlib is required, add the <a href="https://www.nuget.org/packages/Microsoft.NETCore.Portable.Compatibility/" target="_blank">.net Core compatibility package</a> from NuGet to your netstandard project.
+
+Thanks for pointing it out <a href="https://twitter.com/hermitdave/status/880005760738000896" target="_blank">Hermit</a>!
