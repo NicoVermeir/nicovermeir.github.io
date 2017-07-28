@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Binding to the Window Title in UWP
 date: 2017-07-28
