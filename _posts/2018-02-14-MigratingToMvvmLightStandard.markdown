@@ -19,11 +19,11 @@ The app we're upgrading in this post is the exact same one I've used for the pos
 ### Getting the bits
 First step is updating the NuGet packages. When opening the NuGet package manager we immediately see version 5.4.1 of MVVM Light between the available updates. However, this version is still PCL based and we want the .NET Standard version. So instead of updating these versions, we'll just uninstall them. I've removed MVVMLightLibs, CommonServiceLocator and the PCL Compatibility pack.
 
-<img src="http://www.spikie.be/images/updatingMvvmLight/01.png" alt="screenshot" style="width: 250px;"/>
+<img src="http://www.spikie.be/images/updatingMvvmLight/01.PNG" alt="screenshot" style="width: 250px;"/>
 
 The .NET Standard version is called MvvmLightLibsStd10 and can be found on NuGet as a stable release.
 
-<img src="http://www.spikie.be/images/updatingMvvmLight/02.png" alt="screenshot" style="width: 250px;"/>
+<img src="http://www.spikie.be/images/updatingMvvmLight/02.PNG" alt="screenshot" style="width: 250px;"/>
 
 Once the NuGet package is installed, you'll notice that the ViewModelLocator is having some trouble. The **Microsoft.Practices.ServiceLocation** namespace cannot be resolved. The main reason here is that <a href="http://www.mvvmlight.net/std10/" target="_blank">MVVM Light has dropped its dependency on the CommonServiceLocator package</a>.
 
