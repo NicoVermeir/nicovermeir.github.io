@@ -8,6 +8,9 @@ categories: ["post"]
 tags: ["xamarin", "mvvm-light", "netstandard"]
 author: "Nico Vermeir"
 ---
+## Update 14/02/2018
+MVVM Light has been upgraded to .NET Standard 1.0. See <a href="http://blog.galasoft.ch/posts/2018/02/publishing-mvvmlight-v5-4-1-with-net-standard-support/" target="_blank">here</a> and <a href="http://www.spikie.be/post/2018/02/14/migratingtomvvmlightstandard.html" target="_blank">here</a> for updated workflow.
+
 ### The problem
 Netstandard libraries are meant to replace Portable Class Libraries. And they do sound pretty good. The only problem right now is that we're in a transition phase. A bunch of NuGet packages are not updated to be netstandard compatible yet. But that can't stop us!
 
