@@ -8,11 +8,9 @@ categories: ["post"]
 tags: [".Net", "UWP", "Composition", "XAML", "Connected Animation"]
 author: Nico Vermeir
 ---
+Animations are a key part of making your app feel fluent, modern and responsive. Connected animations are a very big part of this, and have been around for a while now. With connected animations you seemingly connect a list item with a detail page for example.
 
 ***Note: This post and demo are created with Fall Creators Update***
-
-
-Animations are a key part of making your app feel fluent, modern and responsive. Connected animations are a very big part of this, and have been around for a while now. With connected animations you seemingly connect a list item with a detail page for example.
 
 ![Connected animation mockup](https://docs.microsoft.com/en-us/windows/uwp/design/motion/images/connected-animations/example.gif)
 
