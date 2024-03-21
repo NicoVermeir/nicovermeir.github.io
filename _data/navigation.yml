@@ -3,11 +3,14 @@ main:
   - title: "About me"
     url: /about-me.html
 
+  - title: "Speaking"
+    url: /speaking.html
+
+  - title: "Sessions"
+    url: /sessions.html
+
   - title: "Contact"
     url: /contact-me.html
-
-  - title: "Archive"
-    url: /archive/posts-by-year.html
 
   - title: "Disclaimer"
     url: /disclaimer.html

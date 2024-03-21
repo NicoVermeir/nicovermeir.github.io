@@ -1,0 +1,44 @@
+- name: "NDC Oslo 2024"
+  location: "Oslo"
+  date: "June 10 - 14 2024" 
+  topic: "From Hell To Heaven: Porting Doom To MAUI"
+
+- name: "Techorama BE 2024"
+  location: "Antwerp"
+  date: "May 6 - 8 2023" 
+  topic: "Part of the organizing crew"
+
+- name: "Wisconsin .NET User Group"
+  location: "Milwaukee"
+  date: "March 15 2024" 
+  topic: "The .NET ABC of things you pretend to know about"
+
+- name: "MVP Summit 2024"
+  location: "Seattle"
+  date: "March 11 - 14 2024" 
+  topic: "Networking, Talking to Microsoft engineers, Listening to NDA stuff"
+
+- name: "Confoo Canada 2024"
+  location: "Montreal"
+  date: "February 21 - 23 2024" 
+  topic: "From Hell To Heaven: Porting Doom To MAUI"
+
+- name: "Swetugg Stockholm 2024"
+  location: "Stockholm"
+  date: "February 7 - 8 2024" 
+  topic: "From Hell To Heaven: Porting Doom To MAUI"
+
+- name: "VISUG XL 2023"
+  location: "Antwerp"
+  date: "November 30 2023" 
+  topic: "From Hell To Heaven: Porting Doom To MAUI"
+
+- name: "DevConf 2023"
+  location: "Poland"
+  date: "November 9 - 10 2023" 
+  topic: "From Hell To Heaven: Porting Doom To MAUI"
+
+- name: "Techorama NL 2023"
+  location: "Utrecht"
+  date: "October 9 - 11 2023" 
+  topic: "Part of the organizing crew"

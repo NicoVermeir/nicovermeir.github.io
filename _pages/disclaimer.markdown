@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Disclaimer"
 comments: false
-author: Maarten Balliauw
+author: Nico Vermeir
 sitemap: false
 permalink: /disclaimer.html
 ---

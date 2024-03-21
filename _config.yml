@@ -1,59 +1,62 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Site Settings
 locale                   : "en"
 title                    : "Nico's Digital Footprint"
 title_separator          : "-"
-name                     : "Nico's Digital Footprint"
-description              : "UWP, Xamarin, Bots, Community, ..."
-url                      : "http://www.spikie.be"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
-  disqus:
-    shortname            : "nicoswpblog"
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : 10 # 5 (default)
-    colorscheme          : "light" # "light" (default), "dark"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+name                     : "Nico Vermeir"
+description              : "blog, resume, portfolio, training, workshops, speaker, .net, architecture"
+url                      : "https://www.nicovermeir.be"
+email: nico_vermeir@hotmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: nicovermeir
+github_username:  nicovermeir
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+plugins:
+  - jekyll-feed
 
-# Social Sharing
-twitter:
-  username               : nicovermeir
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/nicovermeir"
-    - "https://www.linkedin.com/in/nicovermeir"
-    - "https://about.me/nicovermeir"
+defaults:
+   # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      header:
+        image: /assets/images/header.jpeg
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      header:
+        image: /assets/images/header.jpeg
 
 # Analytics
 analytics:
@@ -61,44 +64,32 @@ analytics:
   google:
     tracking_id          : "UA-576836-3"
 
-# Google AdSense
-google_ad_client         :
-google_ad_slot           :
+twitter:
+  username: "nicovermeir"
 
+facebook:
+  username: "nicovermeir"
 
 # Site Author
 author:
   name             : "Nico Vermeir"
-  avatar           : "bio.png"
-  bio              : "<p>Hi, My name is Nico, I’m a Windows Development MVP living in Belgium. I’m currently employed as a Technical Consultant at Realdolmen, one of Belgium’s leading IT single source providers.</p><p>I'm also founding member and board member of the Belgian Modern App Developer Network, a user group focussed on modern application development. If you're in Belgium feel free to drop by if we're doing an event. http://www.madn.be</p>"
+  avatar           : "/assets/images/bio2.jpeg"
+  bio              : "<p>Application architect at Inetum Belgium</p><p>Strong believer in communities and sharing knowledge. International conference speaker.</p> <p>Microsoft MVP Developer Technologies since 2014, crew member of Techorama BE and NL, crew member of VISUG</p><p>Likes brewing beer, Harley-Davidson, Heavy metal and Karate.</p><p><table><tr><td><img src='assets/images/Most_Active_Speaker2023.svg' /></td><td><img src='assets/images/msmvp.png' /></td></tr></table></p>"
   location         : "Belgium"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  email            : "nico_vermeir@hotmail.com"
   github           : "nicovermeir"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
   linkedin         : "nicovermeir"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  tumblr           :
   twitter          : "nicovermeir"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nicovermeir"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nicovermeir"
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -106,7 +97,7 @@ include:
   - favicon.ico
 exclude:
   - vendor
-  - [vendor]
+  #- [vendor]
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -135,110 +126,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-
-# Outputting
-permalink: /:categories/:year/:month/:day/:title.html
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
-timezone: Europe/Brussels # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-#category_archive:
-#  type: liquid
-#  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: true
-      share: true
-      related: true
-      header:
-        image: splash/1.jpg
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      header:
-        image: splash/1.jpg
