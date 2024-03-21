@@ -74,7 +74,7 @@ facebook:
 author:
   name             : "Nico Vermeir"
   avatar           : "/assets/images/bio2.jpeg"
-  bio              : "<p>Application architect at Inetum Belgium</p><p>Strong believer in communities and sharing knowledge. International conference speaker.</p> <p>Microsoft MVP Developer Technologies since 2014, crew member of Techorama BE and NL, crew member of VISUG</p><p>Likes brewing beer, Harley-Davidson, Heavy metal and Karate.</p><p><table><tr><td><img src='assets/images/Most_Active_Speaker2023.svg' /></td><td><img src='assets/images/msmvp.png' /></td></tr></table></p>"
+  bio              : "<p>Application architect at Inetum Belgium</p><p>Strong believer in communities and sharing knowledge. International conference speaker.</p> <p>Microsoft MVP Developer Technologies since 2014, crew member of Techorama BE and NL, crew member of VISUG</p><p>Likes brewing beer, Harley-Davidson, Heavy metal and Karate.</p><p><table><tr><td><img src='https://nicovermeir.github.io/assets/images/Most_Active_Speaker2023.svg' /></td><td><img src='https://nicovermeir.github.io/assets/images/msmvp.png' /></td></tr></table></p>"
   location         : "Belgium"
   email            : "nico_vermeir@hotmail.com"
   github           : "nicovermeir"

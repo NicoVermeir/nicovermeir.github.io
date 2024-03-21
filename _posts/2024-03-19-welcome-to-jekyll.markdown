@@ -1,5 +1,6 @@
 ---
 title:  "Relaunching my blog with Jekyll"
+author: Nico Vermeir
 date:   2024-03-20 14:59:18 +0000
 categories: jekyll update
 ---
