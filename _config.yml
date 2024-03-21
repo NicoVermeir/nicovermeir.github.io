@@ -126,6 +126,11 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Conversion
+markdown: kramdown
+kramdown:
+  input: GFM
+
 tag_archive:
   type: liquid
   path: /tags/

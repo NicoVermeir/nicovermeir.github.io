@@ -4,8 +4,6 @@ comments: false
 author: Nico Vermeir
 sitemap: false
 permalink: /about-me.html
-redirect_from:
- - /contact-me.html
 ---
 
 ## Quick overview
@@ -40,6 +38,38 @@ Nico is a Microsoft MVP in Developer Technologies, crew member of Techorama Belg
 In his spare time he enjoys brewing (and tasting) beer, playing the guitar, riding his Harley-Davidson and doing Karate.
 
 <p><table><tr><td><a href="https://sessionize.com/nicovermeir" target="_blank"><img src='assets/images/Most_Active_Speaker2023.svg' /></a></td><td><a href="https://mvp.microsoft.com/en-US/MVP/profile/9a660ff3-3c9a-e411-93f2-9cb65495d3c4" target="_blank"><img src='assets/images/msmvp.png' /></a></td></tr></table></p>
+
+
+
+## Certifications
+
+<table>
+	<tr>
+		<th>Badge</th>
+		<th>Certification</th>
+		<th>Date Obtained</th>
+	</tr>
+	<tr>
+		<td><img src="/assets/images/msmvp.png" alt="MVP" width="100" /></td>
+		<td>Microsoft Most Valuable Professional</td>
+		<td>Renewed yearly since 2014</td>
+	</tr>
+	<tr>
+		<td><img src="/assets/images/azure_fundamentals.png" alt="Azure Fundamentals" width="100" /></td>
+		<td>Microsoft Certified: Azure Fundamentals</td>
+		<td>May 2023</td>
+	</tr>
+	<tr>
+		<td><img src="/assets/images/ckad.png" alt="CKAD" width="100" /></td>
+		<td>Certified Kubernetes Application Developer</td>
+		<td>October 2023</td>
+	</tr>
+	<tr>
+		<td><img src="/assets/images/az-204.svg" alt="Azure Dev Associate" width="100" /></td>
+		<td>Microsoft Certified: Azure Developer Associate</td>
+		<td>December 2023</td>
+	</tr>
+</table>
 
 ## Disclaimer
 
