@@ -56,7 +56,7 @@ Next we can run our entire set of Dapr-enabled services by using the Dapr CLI:
 `dapr run -f dapr.yaml`
 
 Which nets these results:
-![dapr run output]/assets/images/posts/20240403/002.png)
+![dapr run output](/assets/images/posts/20240403/002.png)
 
 Everything is up and running!
 
