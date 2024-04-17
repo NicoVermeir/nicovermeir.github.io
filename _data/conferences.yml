@@ -1,3 +1,8 @@
+- name: "Copenhagen Developers Festival 2024"
+  location: "Copenhagen"
+  date: "August 26 - 30 2024" 
+  topic: "From Hell To Heaven: Porting Doom To MAUI"
+
 - name: "NDC Oslo 2024"
   location: "Oslo"
   date: "June 10 - 14 2024" 
