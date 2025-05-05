@@ -11,12 +11,12 @@
 - name: "Kansas City Developer Conference 2025"
   location: "Kansas City"
   date: "August 13 - 15 2025" 
-  topic: "Modernizing your legacy application | (full day workshop)	.NET Aspire and Dapr: a microservices match made in heaven"
+  topic: "Modernizing your legacy application / (full day workshop)	.NET Aspire and Dapr: a microservices match made in heaven"
 
 - name: "DWX - Developer Week 2025"
   location: "Mannheim"
   date: "June 30 - July 3 2025" 
-  topic: "From Hell To Heaven: Porting Doom To MAUI | The .NET ABC of things you pretend to know about"
+  topic: "From Hell To Heaven: Porting Doom To MAUI / The .NET ABC of things you pretend to know about"
 
 - name: "Techorama BE 2025"
   location: "Antwerp"
