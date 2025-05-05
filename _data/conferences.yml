@@ -1,3 +1,28 @@
+- name: "Techorama BE 2025"
+  location: "Antwerp"
+  date: "May 26 - 28 2025" 
+  topic: "Part of the organizing crew"
+
+- name: "NDC Oslo 2025"
+  location: "Oslo"
+  date: "May 19 - 23 2025" 
+  topic: "Tales from the trenches: Building a distributed system with Aspire and Dapr"
+
+- name: "Dotnetdays Romania 2025"
+  location: "Iași"
+  date: "May 6 - 8 2025" 
+  topic: "Tales from the trenches: Building a distributed system with Aspire and Dapr"
+
+- name: "Swetugg Stockholm 2025"
+  location: "Stockholm"
+  date: "February 4 - 5 2025" 
+  topic: "The .NET ABC of things you pretend to know about"
+
+- name: "VisugXL 2024"
+  location: "Ghent"
+  date: "November 20 2024" 
+  topic: "Tales from the trenches: Building a distributed system with Aspire and Dapr"
+
 - name: "Copenhagen Developers Festival 2024"
   location: "Copenhagen"
   date: "August 26 - 30 2024" 
@@ -10,7 +35,7 @@
 
 - name: "Techorama BE 2024"
   location: "Antwerp"
-  date: "May 6 - 8 2023" 
+  date: "May 6 - 8 2024" 
   topic: "Part of the organizing crew"
 
 - name: "Wisconsin .NET User Group"
