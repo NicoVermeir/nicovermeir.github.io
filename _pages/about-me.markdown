@@ -29,11 +29,10 @@ Feel free to reach out to me with any questions / remarks / requests.
 
 ## Bio
 
-Nico Vermeir is an application architect at Inetum-Realdolmen in Belgium since 2010, where he has a strong focus on building and architecting modern applications.
+Nico Vermeir is a Cloud Solution Architect at Microsoft, where he has a strong focus on application innovation and AI.
 
-Being a strong believer in the importance of communities he tries to share knowledge wherever he can, be it on social media, at a user group or conference. He has spoken on many international conferences such as NDC Oslo, NDC Sydney, NDC London, Swetugg, Build Stuff, DotNext.
-
-Nico is a Microsoft MVP in Developer Technologies, crew member of Techorama Belgium and Netherlands and crew member of the Visual Studio User Group (VISUG), Belgium's largest .NET user group.
+Being a strong believer in the importance of communities he tries to share knowledge wherever he can, be it on BlueSky, at a user group or conference. He has spoken on many international conferences such as NDC Oslo, NDC Sydney, NDC London, Swetugg, Build Stuff, DotNext.
+Nico is a former Microsoft MVP in Developer Technologies, crew member of Techorama BE and NL and crew member of VISUG, Belgium's largest .NET user group.
 
 In his spare time he enjoys brewing (and tasting) beer, playing the guitar, riding his Harley-Davidson and doing Karate.
 
